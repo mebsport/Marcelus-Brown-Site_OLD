@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+  --colorThemeDark: rgb(90, 90, 90);
+  --colorThemeLight: #969696;
+  --colorThemeDarkBlue: #000057;
+}
+
 * {
   box-sizing: border-box;
 }
-
+root{
+--backroundColor, #A9A9A9;
+}
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -19,6 +27,7 @@ main {
   padding: 50px;
   max-width: 750px;
   width: 95%;
+  background-color: ;
 }
 
 .startsection {
