@@ -17,6 +17,7 @@ body {
 
 main {
   padding: 50px;
+  max-width: 50%;
 }
 
 .startsection {
