@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --colorThemeDarkGray: rgb(90, 90, 90);
+  --colorThemeDarkGray: rgb(32, 32, 32);
   --colorThemeLightGray: #969696;
   --colorThemeDarkBlue: #000057;
 }
@@ -20,6 +20,7 @@ body {
   overflow: hidden;
   margin: 0;
   background-color: var(--colorThemeDarkGray);
+  color: var(--colorThemeLightGray);
 }
 
 main {
