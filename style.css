@@ -19,13 +19,13 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-color: var(--colorThemeDarkGray);
 }
 
 main {
   padding: 50px;
   max-width: 750px;
   width: 95%;
-  background-color: var(--colorThemeDarkGray);
 }
 
 .startsection {
