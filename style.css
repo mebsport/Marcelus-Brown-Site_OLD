@@ -5,6 +5,7 @@
   --colorThemeDarkGray: rgb(32, 32, 32);
   --colorThemeLightGray: #969696;
   --colorThemeDarkBlue: #000057;
+  --colorThemeLightBlue: #006ae4;
 }
 
 *,
@@ -40,6 +41,7 @@ main {
 
 .languages {
   display: block;
+  font-size: medium;
 }
 
 .language {
@@ -62,5 +64,14 @@ main {
 }
 
 .language:hover {
-  font-size: large;
+  font-size: x-large;
+  text-shadow: 2px 2px var(--colorThemeLightBlue);
+}
+
+h1 {
+  text-shadow: 2px 2px var(--colorThemeLightBlue);
+}
+
+p {
+  line-height: 150%;
 }
