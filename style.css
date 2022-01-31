@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0;
   background-color: var(--colorThemeDarkGray);
   color: white;
@@ -74,4 +74,12 @@ h1 {
 
 p {
   line-height: 150%;
+}
+
+.needsSpacing {
+  padding-top: 50px;
+}
+
+.logo {
+  size: 20px;
 }
