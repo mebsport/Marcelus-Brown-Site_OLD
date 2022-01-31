@@ -20,8 +20,8 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   height: 100vh;
   overflow-x: hidden;
   margin: 0;
@@ -29,10 +29,15 @@ body {
   color: white;
 }
 
+header {
+  text-align: center;
+}
+
 main {
   padding: 50px;
   max-width: 750px;
   width: 95%;
+  margin-left: 5rem;
 }
 
 .startsection.header {
@@ -101,7 +106,7 @@ p {
   border: none;
   background-color: transparent;
   padding: 15px 32px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .social:first-child {
@@ -113,3 +118,5 @@ p {
   text-shadow: 2px 2px var(--colorThemeLightBlue);
   cursor: pointer;
 }
+
+/* navigation bar */

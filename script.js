@@ -22,3 +22,5 @@ instagramButton.addEventListener('click', () => {
   console.log('Open Instagram');
   window.open('https://www.instagram.com/mebsport/', '_blank');
 });
+
+//languages functionality
