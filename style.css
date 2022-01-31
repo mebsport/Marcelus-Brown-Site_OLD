@@ -7,8 +7,12 @@
   --colorThemeDarkBlue: #000057;
 }
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -21,7 +25,7 @@ body {
   overflow: hidden;
   margin: 0;
   background-color: var(--colorThemeDarkGray);
-  color: var(--colorThemeLightGray);
+  color: white;
 }
 
 main {
@@ -35,13 +39,28 @@ main {
 }
 
 .languages {
-  font-size: medium;
-  display: inline-flex;
-  flex-wrap: wrap;
-  padding: 0 8px;
-  margin: 6px;
+  display: block;
 }
 
-.languages:hover {
+.language {
+  display: inline-block;
+  list-style: none;
+  padding: 0 6px;
+  will-change: auto;
+
+  transition: font-size ease-in-out 0.15s;
+  -moz-transition: font-size ease-in-out 0.15s;
+  -ms-transition: font-size ease-in-out 0.15s;
+  -o-transition: font-size ease-in-out 0.15s;
+  -webkit-transition: font-size ease-in-out 0.15s;
+}
+
+/* 👍👍👍👍👍 */
+
+.language:first-child {
+  padding-left: 0;
+}
+
+.language:hover {
   font-size: large;
 }
