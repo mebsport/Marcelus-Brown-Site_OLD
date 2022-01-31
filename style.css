@@ -33,3 +33,15 @@ main {
 .startsection.header {
   font-family: 'Supermercado One', cursive;
 }
+
+.languages {
+  font-size: medium;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  margin: 6px;
+}
+
+.languages:hover {
+  font-size: large;
+}
