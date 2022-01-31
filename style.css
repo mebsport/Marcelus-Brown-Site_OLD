@@ -96,6 +96,12 @@ p {
   -ms-transition: font-size ease-in-out 0.15s;
   -o-transition: font-size ease-in-out 0.15s;
   -webkit-transition: font-size ease-in-out 0.15s;
+
+  color: white;
+  border: none;
+  background-color: transparent;
+  padding: 15px 32px;
+  text-align: center;
 }
 
 .social:first-child {
