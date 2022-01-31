@@ -118,5 +118,15 @@ p {
   text-shadow: 2px 2px var(--colorThemeLightBlue);
   cursor: pointer;
 }
-
+/* scrollbar settings*/
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--colorThemeLightGray);
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--colorThemeLightBlue);
+}
 /* navigation bar */
