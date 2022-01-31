@@ -80,6 +80,29 @@ p {
   padding-top: 50px;
 }
 
-.logo {
-  size: 20px;
+.socials {
+  display: block;
+  font-size: medium;
+}
+
+.social {
+  display: inline-block;
+  list-style: none;
+  padding: 0 6px;
+  will-change: auto;
+
+  transition: font-size ease-in-out 0.15s;
+  -moz-transition: font-size ease-in-out 0.15s;
+  -ms-transition: font-size ease-in-out 0.15s;
+  -o-transition: font-size ease-in-out 0.15s;
+  -webkit-transition: font-size ease-in-out 0.15s;
+}
+
+.social:first-child {
+  padding-left: 0;
+}
+
+.social:hover {
+  font-size: x-large;
+  text-shadow: 2px 2px var(--colorThemeLightBlue);
 }
