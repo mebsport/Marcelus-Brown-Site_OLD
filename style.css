@@ -191,3 +191,21 @@ body::-webkit-scrollbar-thumb {
   background: var(--colorThemeDarkBlue);
   color: var(--colorThemeLightBlue);
 }
+/* navigation bar for small screens */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .nav-link {
+    justify-content: center;
+  }
+  main {
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+}
