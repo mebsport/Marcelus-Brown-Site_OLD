@@ -3,8 +3,9 @@
 
 :root {
   --colorThemeDarkGray: rgb(32, 32, 32);
-  --colorThemeLightGray: #969696;
-  --colorThemeDarkBlue: #00003f;
+  --colorThemeLightGray: rgb(32, 32, 32);
+  /* --colorThemeLightGray: #969696; */
+  --colorThemeDarkBlue: white;
   --colorThemeLightBlue: #006ae4;
   --transition-speed: 600ms;
 }
